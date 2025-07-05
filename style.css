@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: Roboto, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header, 
+.hero, 
+.footer {
+    background-color: #1F2937;
+}
+
+.footer {
+    justify-content: center;
+    text-align: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.sign-up {
+    padding: 8px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.white-border {
+    border: 2px solid white;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.photo-text {
+    color: #666;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    color: #222;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    margin: 5vw;
+    border-radius: 8px;
+}
