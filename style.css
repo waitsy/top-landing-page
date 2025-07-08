@@ -13,6 +13,46 @@ a {
 .hero, 
 .footer {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer {
+    padding: 40px 0;
+}
+
+.page-width {
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header {
+    padding: 12px;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+}
+
+.right-links {
+    display: flex;
+    gap: 24px;
+}
+
+.hero {
+    justify-content: center;
+    padding-bottom: 120px;
+}
+
+.hero-left {
+    flex: 0 1 auto;
+    width: 450px;
+    margin-right: 80px;
+}
+
+.hero-right {
+    flex: 0 0 auto;
 }
 
 .footer {
@@ -40,6 +80,7 @@ a {
     padding: 8px 24px;
     border: none;
     border-radius: 8px;
+    margin-top: 12px;
     background-color: #3882f6;
     color: #F9FAF8;
     font-size: 18px;
@@ -50,18 +91,50 @@ a {
     border: 2px solid white;
 }
 
+.info {
+    padding: 40px 20px 120px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .info-header {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.info-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.info-photo img {
+    box-sizing: border-box;
+    border: 3px solid rgb(41, 112, 255);
+    border-radius: 8px;
 }
 
 .photo-text {
     color: #666;
+    width: 210px;
 }
 
 .quote-section {
     background-color: #E5E7EB;
+    padding: 80px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-container {
+    max-width: 820px;
+    display: flex;
+    flex-direction: column;
+    align-items: right;
 }
 
 .quote-text {
@@ -71,14 +144,33 @@ a {
     color: #1F2937;
 }
 
+.author-container {
+    display: flex;
+    justify-content: right;
+}
+
 .quote-author {
+    padding-top: 16px;
+    text-align: right;
     font-size: 24px;
     font-weight: bold;
     color: #222;
 }
 
 .call-to-action {
+    box-sizing: border-box;
     background-color: #3882F6;
-    margin: 5vw;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     border-radius: 8px;
+    padding: 80px;
+    margin: 0 80px;
+    width: 1024px;
+}
+
+.cta-container {
+    padding: 80px 0;
+    display: flex;
+    justify-content: center;
 }
